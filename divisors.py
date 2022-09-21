@@ -1,11 +1,8 @@
 def divisors():
-    x = int(input("Enter a number where you'd like to start your range: "))
-    y = int(input("Enter another number where you'd like to end your range: "))
-    lst = range(x,y+1)
-
     num = int(input("Enter a number you'd like to find the divisors for within that range: "))
-    divisorlst = [x for x in lst if num%x == 0]
-    print(divisorlst)
+    lst2 = range(1,num+1)
+    divisorlst2 = [y for y in lst2 if num%y == 0]
+    print(divisorlst2)
 
 if __name__ == '__main__':
     divisors()
