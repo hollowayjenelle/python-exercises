@@ -13,3 +13,8 @@ def primenumber():
 
 if __name__ == '__main__':
     primenumber()
+
+#Ask the user for a number and determine whether the number is prime or not.
+#  (For those who have forgotten, a prime number is a number that can be divided by itself and 1.). 
+# You can (and should!) use your answer to Exercise 4 to help you. Take this opportunity to practice using functions, 
+# described below.
