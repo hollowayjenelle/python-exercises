@@ -1,0 +1,1 @@
+prime number".format(num1))
