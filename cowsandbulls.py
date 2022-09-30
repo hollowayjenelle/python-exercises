@@ -19,7 +19,7 @@ def cows(a,b):
 
 def cowsandbulls():
     print("Welcome to the game Cows and Bulls. Let's play\n")
-    num = random.randint(999,10000)
+    num = random.randint(1000,9999)
     guess = 0
     guesses = 0
     ans = 'y'
